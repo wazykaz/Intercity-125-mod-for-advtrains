@@ -1,0 +1,18 @@
+#    Enable or disable the lights on the power cars.
+#    (default = true)
+hst_enable_lights (Enable Lights) bool true
+
+#    Create light beams in front of the train using Light_tool.
+#    Requires lights to be enabled.
+#    (default = true)
+hst_enable_light_tool (Enable lights beams using Light_Tool) bool true
+
+#    Set the separation of the light beam from the power cars.
+#    For example, 0 will start the beam where the car is, whereas 5 will start it five meters in front of it.
+#    This can help stop the train entity from being too bright/dark.
+#    (default = 5)
+hst_light_beam_separation (Light beam separation from train) int 5 0 8
+
+#    Set the distance which the light beam travels.
+#    (default = 20)
+hst_light_beam_distance (Light beam travel distance) int 20 5 25
